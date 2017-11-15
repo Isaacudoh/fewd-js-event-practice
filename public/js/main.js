@@ -4,4 +4,8 @@
 
  buttons[0].addEventListener('click', colorChange);
 
+ function colorChange () {
+   buttons[0].classList.toggle('button-danger');
+ }
+
 })()
